@@ -1,8 +1,8 @@
-title: My docs
-description: An awesome docs project
+title: Documentation
+description: Documentation of schmelto
 permalink: pretty
 search_enabled: true
-color_scheme: dark
+color_scheme: light
 
 remote_theme: pmarsceill/just-the-docs
 plugins:
