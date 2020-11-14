@@ -1,9 +1,9 @@
 ---
 layout: default
 title:  "ABAP"
-date:   2020-11-14
-categories: abap
 ---
+
+# ABAP
 
 {% highlight abap %}
 FORM get_x_last_chars USING iv_string
