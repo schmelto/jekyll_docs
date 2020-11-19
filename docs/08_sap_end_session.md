@@ -1,9 +1,9 @@
 ---
 layout: default
-title: SAP end session
+title: SAP - end session
 ---
 
-## SAP end session
+## SAP - end session
 
 1. Transaction **SM04**
 2. List with all sessions will open
