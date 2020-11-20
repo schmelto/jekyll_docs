@@ -1,11 +1,17 @@
 ---
 layout: default
-title: Transaction Usage
+title: Transactions
 parent: SAP
 nav_order: 1
 ---
 
-## Transaction Usage
+## Transactions
+
+### Maintain Transactions
+
+Transaction **SE93**
+
+### Usage
 
 1. Transaction **ST03N**
 2. Select period
