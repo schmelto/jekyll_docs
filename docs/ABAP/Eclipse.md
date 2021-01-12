@@ -7,7 +7,10 @@ nav_order: 1
 
 ## Eclipse
 
-### Eclipse Box Selection
+### Shortcuts
 
-* **Windows:** Alt + Shift + A
-* **Mac:** Command + Option + A
+| shortcut | what it does |
+|----|----|
+| `str` + `1` | add ABAP Doc |
+| `str` + `shift` + `alt` | Search |
+| `alt` + `shift` + `A` | Eclipse Box Selection |
