@@ -8,6 +8,8 @@ nav_order: 1
 ## Function Modules
 
 Function modules are outdated. If you have to use one cause of implementing a BTE or something else create this function module and call a global class in it.
+
+
 **Example:**
 
 We have following function module:
