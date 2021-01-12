@@ -14,3 +14,6 @@ nav_order: 1
 | `str` + `1` | add ABAP Doc |
 | `str` + `shift` + `alt` | Search |
 | `alt` + `shift` + `A` | Eclipse Box Selection |
+| `alt` + `str` + `arrow down` | duplicate lines |
+| `str` + `<` | Comment |
+| `str` + `>` | Undo comment |
