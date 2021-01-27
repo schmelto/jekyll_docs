@@ -26,9 +26,11 @@ ToDo: Run test in test-system and if it works apply for exemption.
 
 ### Select from SKB1
 
-The ABAP Test Cockpit throws following warning: DB Operation SELECT found (SKB1, see Note(s):0002431747)
+**The ABAP Test Cockpit throws following warning:**
 
-In the SAP Note 2431747 I found following text passage: As a consequence, read-access to SKA1 and SKB1 will in general return also secondary cost elements; this is different to releases before S/4HANA.
+DB Operation SELECT found (SKB1, see Note(s):[0002431747](https://launchpad.support.sap.com/#/notes/2431747))
+
+In the SAP Note [2431747](https://launchpad.support.sap.com/#/notes/2431747) I found following text passage: As a consequence, read-access to SKA1 and SKB1 will in general return also secondary cost elements; this is different to releases before S/4HANA.
 
 **Coding:**
 ```abap
@@ -41,4 +43,4 @@ SELECT SINGLE bukrs saknr xopvw
 
 **Solution:**
 
-Warning should be suppressed wit `"#EC CI_DB_OPERATION_OK[2431747]` cause `saknr` is unique for primary and secundary accounts.
+Warning should be suppressed with `"#EC CI_DB_OPERATION_OK[2431747]` cause `saknr` is unique for primary and secundary accounts.
