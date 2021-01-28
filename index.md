@@ -8,10 +8,8 @@ layout: default
 
 In the documentation you can find following badges:
 
-| Badge | Description |
-|---|---|
-| active {: .label .label-green } | active released version |
-
+Active
+{: .label .label-green }
 
 Coming soon
 {: .label .label-yellow }
