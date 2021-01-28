@@ -74,4 +74,4 @@ Maybe after transport database needs a "refresh".
 
 For this you have to go into transaction `SE14` and select the table `/MSBSTD/ERP_MAI` and activate and adjust the database.
 
-[SE14](./assets/se14.png)
+[SE14](./../assets/se14.png)
