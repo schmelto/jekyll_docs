@@ -2,19 +2,16 @@
 layout: default
 ---
 
-## Welcome
+## Documentation
 
-Default label
-{: .label }
+### Badges
 
-Blue label
-{: .label .label-blue }
+In the documentation you can find following badges:
 
-Stable
-{: .label .label-green }
+| Badge | Description |
+|---|---|
+| active {: .label .label-green } | active released version |
 
-New release
-{: .label .label-purple }
 
 Coming soon
 {: .label .label-yellow }
