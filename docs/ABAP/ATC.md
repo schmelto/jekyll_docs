@@ -7,11 +7,9 @@ nav_order: 1
 
 ## ATC - ABAP Test Cockpit
 
+### Reminder 
 ToDo
 {: .label .label-red }
-
-### Reminder
-
 Old Move type conflict (Type DZLSHB_F15, Note: 0002610650) STRUCTURE -> C
 
 ```abap
@@ -48,11 +46,9 @@ SELECT SINGLE bukrs saknr xopvw
 
 Warning should be suppressed with `"#EC CI_DB_OPERATION_OK[2431747]` cause `saknr` is unique for primary and secundary accounts.
 
+### /msbstd/erp_mai
 Warning
 {: .label .label-yellow }
-
-### /msbstd/erp_mai
-
 ```abap
 " ZMSB_MAI_F01
       ls_stammdaten-ahk = ls_anlc-kansw + ls_anlc-answl.
