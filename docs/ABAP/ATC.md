@@ -7,9 +7,12 @@ nav_order: 1
 
 ## ATC - ABAP Test Cockpit
 
+ToDo
+{: .label .label-red }
+
 ### Reminder
 
-> Old Move type conflict (Type DZLSHB_F15, Note: 0002610650) STRUCTURE -> C
+Old Move type conflict (Type DZLSHB_F15, Note: 0002610650) STRUCTURE -> C
 
 ```abap
 DATA:  gt_item        TYPE rfkord_t_item, "fail with type DZLSHB_F15
@@ -44,6 +47,9 @@ SELECT SINGLE bukrs saknr xopvw
 **Solution:**
 
 Warning should be suppressed with `"#EC CI_DB_OPERATION_OK[2431747]` cause `saknr` is unique for primary and secundary accounts.
+
+Warning
+{: .label .label-yellow }
 
 ### /msbstd/erp_mai
 
