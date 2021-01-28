@@ -44,3 +44,34 @@ SELECT SINGLE bukrs saknr xopvw
 **Solution:**
 
 Warning should be suppressed with `"#EC CI_DB_OPERATION_OK[2431747]` cause `saknr` is unique for primary and secundary accounts.
+
+### /msbstd/erp_mai
+
+```abap
+" ZMSB_MAI_F01
+      ls_stammdaten-ahk = ls_anlc-kansw + ls_anlc-answl.
+      ls_stammdaten-rbw = ls_anlc-kansw
+                          + ls_anlc-answl
+                          + ls_anlc-kaufw
+                          + ls_anlc-aufwp
+                          + ls_anlc-kinvz
+                          + ls_anlc-invzm
+                          + ls_anlc-knafa
+                          + ls_anlc-nafap
+                          + ls_anlc-kaafa
+                          + ls_anlc-aafap
+                          + ls_anlc-kaufn
+                          + ls_anlc-aufnp
+                          + ls_anlc-ksafa
+                          + ls_anlc-safap
+                          + ls_anlc-nafam
+                          + ls_anlc-safam
+                          + ls_anlc-aafam
+                          + ls_anlc-mafam.
+```
+
+Maybe after transport database needs a "refresh".
+
+For this you have to go into transaction `SE14` and select the table `/MSBSTD/ERP_MAI` and activate and adjust the database.
+
+[SE14](./assets/se14.png)
