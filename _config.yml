@@ -2,7 +2,7 @@ title: Documentation
 description: Documentation of schmelto
 permalink: pretty
 search_enabled: true
-color_scheme: light
+color_scheme: light #dark
 
 remote_theme: pmarsceill/just-the-docs
 plugins:
