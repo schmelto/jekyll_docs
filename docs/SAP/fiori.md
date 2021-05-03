@@ -19,4 +19,6 @@ Transaction: **/n/iwfnd/maint_service**
 
 ![add Service](../../assets/fiori_add_system_alias.png)
 
+### Maintain Services
 
+Transaction: **sicf**
